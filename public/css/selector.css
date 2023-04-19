@@ -1,0 +1,34 @@
+:root{
+  background: purple;
+}
+
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+body {
+  background: #fff;
+}
+*{color:red;}
+
+.box{
+  background: silver;
+}
+
+#user{
+  color:black;
+}
+
+div > p {
+  color:green;
+}
+
+.item {
+color:green;  
+}
+
+.item:first-child {
+  color:rgb(115, 13, 174);
+}

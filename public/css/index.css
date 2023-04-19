@@ -1,7 +1,56 @@
-html {
-  max-width: 720px;
+.card {
+color: red;
 }
 
-body {
-  background: #fff;
+
+.card > p {
+  color:green;
+  -webkit-text-fill-color: red ;
+  -webkit-text-stroke: 1px blue;
+}
+
+p:focus,
+p:active,
+p:hover {
+  -webkit-text-fill-color: rgb(208, 138, 138) ;
+  -webkit-text-stroke: 1px rgb(0, 0, 1);
+  direction:rtl;
+}
+
+#test {color: inherit;
+  -webkit-text-fill-color:inherit ;
+  -webkit-text-stroke:  inherit;
+/* writing-mode: vertical-rl; */
+text-align: center;
+letter-spacing: 10px;
+font-weight: lighter;
+
+}
+
+span {
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline dotted red;
+  font-size: small;
+  font-weight: 900;
+  font-style: oblique;
+  font-display: swap;
+}
+
+
+
+pre {
+	tab-size: 1;
+	
+}
+
+* {font-family: 'Roboto', sans-serif;
+font-size: 18px;}
+.test {
+	display:none}
+.block {
+	display:block;
+	margin: auto;
+	background: rgb(213, 195, 195);
+	width: max-content;
 }
