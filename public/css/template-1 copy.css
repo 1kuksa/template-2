@@ -84,9 +84,7 @@ text-align: center;
 max-width: 585px;
 margin: 0 auto;
 }
-.plans{
 
-}
 .plans_card:not(:last-of-type){
 	margin-right: 24px;
 }
