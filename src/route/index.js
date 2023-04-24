@@ -169,6 +169,7 @@ router.get('/template-2', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('template-2', {
+    layout: 'template-2',
     page: {
       title: 'Example Page',
     },
