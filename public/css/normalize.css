@@ -1,4 +1,16 @@
+@font-face {
+	font-family: "Segment";
+	src: url('/public/font/Segment-Regular.otf');
+	font-weight: 400;
+}
 
+@font-face {
+	font-family: "Segment";
+	src: url('/public/font/Segment-SemiBold.otf');
+	font-weight: 600;
+}
+
+@layer normalize {
 
 /* Document
    ========================================================================== */
@@ -937,4 +949,5 @@ input[type='number'] {
 input:-webkit-autofill {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
 }
